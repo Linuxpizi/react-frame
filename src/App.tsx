@@ -1,14 +1,18 @@
 import * as React from "react";
-import { Component, } from "react";
 import "./App.css";
+import GridEx from "./dashboard/grid/grid";
 
-export class App extends Component {
+// import ButtonEx from "./dashboard/button/button";
+
+export class App extends React.Component {
     readonly state = {
         isShow: true,
     }
     render() {
         return (
             <div >
+                {/* <ButtonEx/> */}
+                <GridEx/>
             </div>
         );
     }

@@ -20,9 +20,6 @@ module.exports = {
     },
 
     resolve: {
-        alias: {
-            'react-components': '@ucloud-fe/react-components',
-        },
         modules: ['src', 'node_modules'],
         extensions: ['.tsx', '.ts', '.js'],
     },
@@ -116,7 +113,6 @@ module.exports = {
                     'react-dom',
                     'react-redux',
                     'react-router-dom',
-                    'react-router-redux',
                     'redux-observable',
                     'history',
                 ],

@@ -2,7 +2,6 @@
   "name": "dashboard",
   "version": "1.0.0",
   "description": "init react prod",
-  "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --progress --profile --colors --watch-poll",
     "build-deploy": "webpack --config webpack.prod.js --progress --profile --colors",
@@ -13,7 +12,7 @@
   "author": "tangsong0202@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "antd": "^4.0.2",
+    "antd": "^4.2.0",
     "axios": "0.17.1",
     "history": "^4.7.2",
     "moment": "2.21.0",
