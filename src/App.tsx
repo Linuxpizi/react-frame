@@ -1,6 +1,8 @@
 import * as React from "react";
 import "./App.css";
-import GridEx from "./dashboard/grid/grid";
+import SpaceEx from "./dashboard/space/space";
+// import LayoutEx from "./dashboard/layout/layout";
+// import GridEx from "./dashboard/grid/grid";
 
 // import ButtonEx from "./dashboard/button/button";
 
@@ -12,7 +14,9 @@ export class App extends React.Component {
         return (
             <div >
                 {/* <ButtonEx/> */}
-                <GridEx/>
+                {/* <GridEx/> */}
+                {/* <LayoutEx/> */}
+                <SpaceEx />
             </div>
         );
     }
